@@ -18,8 +18,6 @@ class RollerCoaster:
 
     def passenger(self, passenger_id):
         print(f"Passenger {passenger_id} is waiting to board.")
-
-        
         self.board_queue.acquire()
         self.board(passenger_id)
 
