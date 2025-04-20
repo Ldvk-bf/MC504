@@ -77,6 +77,14 @@ Funções chaves:
 * `roller_coaster()`: control thread da montanha-russa  
 * `board()`/`unboard()`: Atomic embarque/desembarque operações
 
+## **Visualização**
+* Primeiramente é preciso instalar o pacote sdl2, que pode ser feito usando
+```sudo apt install libsdl2-dev libsdl2-gfx-dev```
+* Depois compile o código em visualizer.c usando as flags
+```gcc visualizer.c -o montanha -lSDL2 -lSDL2_image -lSDL2_gfx -lpthread```
+* E, por fim, para a visualização rode
+```./montanha```
+
 ## **Boas Práticas**
 
 * Dados compartilhados protegidos por mutex  
