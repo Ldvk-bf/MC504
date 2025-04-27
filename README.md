@@ -38,7 +38,7 @@ Esta implementação usa:
 
 ## **Características**
 
-* Representação visual   
+* Representação visual usando o SDL2   
 * Atrasos aleatórios simulam a imprevisibilidade do mundo real  
 * Gestão de recursos limpos  
 * Parâmetros configuráveis:  
